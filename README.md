@@ -1,2 +1,2 @@
-# vezhdeldesign.github.io
+# vezhdelit.github.io
 VezhdelDesign projects here.
