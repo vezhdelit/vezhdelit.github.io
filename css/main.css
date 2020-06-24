@@ -105,9 +105,13 @@ color: #000000;
 section .paratitle{
 	padding-top:86px;
 }
+section .paratitle li{
+	padding: 0;
+	margin: 0;
+	margin-right:233px;
+}
 section .paratitle li p{
 margin: 0;
-margin-right:233px;
 width: 380px;
 
 font-weight: bold;
@@ -115,9 +119,6 @@ font-size: 36px;
 line-height: 31px;
 
 color: #000000;
-}
-section .para2title {
-	padding-top: 30px;
 }
 section .paratitle{
 	display:flex;
@@ -143,8 +144,9 @@ section .photos{
 	margin-top: 86px;
 	display: flex;
 }
-.photos li{
+.photos img{
 	margin-right: 43px;
+	width: 100%;
 }
 footer ul{
 	margin-top:50px;
@@ -157,4 +159,72 @@ footer ul{
 }
 footer li{
 	margin-right: 150px;
+}
+
+
+
+@media screen and (max-width: 1200px)
+{
+	.container{
+		width: 1140px;
+	}
+}
+@media screen and (max-width: 1199px)
+{
+	.container{
+		width: 960px;
+	}
+	.text li p{
+		width: 90%
+	}
+	section .paratitle li{
+		margin-right: 7.5%;
+	}
+
+	.photos	img:nth-child(1){
+		width: 42%;
+	}
+	.photos	img:nth-child(2){
+		width: 25%;
+	}
+	.photos	img:nth-child(3){
+		width: 25%;
+	}
+	header .logo{
+		margin-right: 15%;
+	}
+
+}
+@media screen and (max-width: 991px)
+{
+	.container{
+		width: 720px;
+	}
+	section .paratitle li p{
+		font-size: 32px;
+		width: 80%
+
+	}
+	header .menu li a{
+		font-size: 16px;
+	}
+	header .menu li{
+		margin-right: 40px;
+	}
+		header .logo{
+		margin-right: 10%;
+	}
+}
+@media screen and (max-width: 767px)
+{
+	.container{
+		width: 540px;
+	}
+}
+@media screen and (max-width: 575px)
+{
+	.container{
+		width: 100%;
+		padding: 0 15px;
+	}
 }
